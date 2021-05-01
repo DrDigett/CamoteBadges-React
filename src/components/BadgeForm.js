@@ -23,11 +23,9 @@ class BadgeForm extends React.Component{
     render(){
         return(
             <div>
-                <h1>Nuevo Badge</h1>
-
                 <form onSubmit={this.props.onSubmit}>
                     <div className="form-group">
-                        <label>first name</label>
+                        <label>nickname</label>
                         <input
                             onChange={this.props.onChange} 
                             className="form-control" 
@@ -37,7 +35,7 @@ class BadgeForm extends React.Component{
                     </div>
 
                     <div className="form-group">
-                        <label>last name</label>
+                        <label>nickname+</label>
                         <input 
                             onChange={this.props.onChange} 
                             className="form-control" 
@@ -57,7 +55,7 @@ class BadgeForm extends React.Component{
                     </div>
 
                     <div className="form-group">
-                        <label>Job</label>
+                        <label>Informacion</label>
                         <input 
                             onChange={this.props.onChange} 
                             className="form-control" 
@@ -67,7 +65,7 @@ class BadgeForm extends React.Component{
                     </div>
 
                     <div className="form-group">
-                        <label>twitter</label>
+                        <label>twitter/instagram</label>
                         <input 
                             onChange={this.props.onChange} 
                             className="form-control" 
@@ -77,6 +75,9 @@ class BadgeForm extends React.Component{
                     </div>
                     
                     <button onClick={this.handleClick} className="btn btn-primary">Save</button>
+                {this.props.error &&(
+                    <p className="text-danger">{this.props.error.message}</p>
+                )}
                 </form>
             </div>
         )

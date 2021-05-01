@@ -31,20 +31,20 @@ a.link-unstyled:hover {
 
 .btn.btn-primary {
   color: #fff;
-  background-color: #7DCD40;
-  border-color: #7DCD40;
+  background-color: #ff8000;
+  border-color: #ff8000;
 }
 
 .btn.btn-primary:not(:disabled):not(.disabled):hover {
   color: #fff;
-  background-color: #7DCD40;
-  border-color: #7DCD40;
+  background-color: #ff8000;
+  border-color: #ff8000;
 }
 
 .btn.btn-primary:not(:disabled):not(.disabled):active {
   color: #fff;
-  background-color: #7DCD40;
-  border-color: #7DCD40;
+  background-color: #ff8000;
+  border-color: #ff8000;
 }
 
 .btn.btn-primary:not(:disabled):not(.disabled):focus {
