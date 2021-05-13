@@ -7,7 +7,7 @@ class Navbar extends React.Component{
         return(
             <div className="Navbar">
                 <div className="container-fluid">
-                    <Link className="Navbar__brand" to="/">
+                    <Link className="Navbar__brand" to="/CamoteBadges-React">
                         <span className="font-weight-light">Camote</span>
                         <span className="font-weight-bold">Sports</span>
                     </Link>
