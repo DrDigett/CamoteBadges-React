@@ -1,0 +1,40 @@
+{
+  "name": "Camotebadges",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://drdigett.github.io/CamoteBadges-React",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build ",
+    "start": "npm-run-all -p client server",
+    "client": "react-scripts start",
+    "server": "json-server --port 3001 --watch server/db.json",
+    "seed": "node server/seed.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "md5": "^2.3.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "gh-pages": "^3.1.0",
+    "json-server": "^0.16.3",
+    "npm-run-all": "^4.1.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
