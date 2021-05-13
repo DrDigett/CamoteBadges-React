@@ -63,7 +63,7 @@ class Badges extends React.Component {
 
         <div className="Badges__container">
           <div className="Badges__buttons">
-            <Link to="/badges/new" className="btn btn-primary">
+            <Link to="/CamoteBadges-React/badges/new" className="btn btn-primary">
               New Badge
             </Link>
           </div>

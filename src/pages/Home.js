@@ -12,7 +12,7 @@ class Home extends React.Component {
           <img class="logo" src={logo} alt="Logo de conferencia" />
           <h1>Unete a Camote Sports</h1>
           <p>The easiest way to manage your conference</p>
-          <Link to="/badges" className="btn btn-primary">
+          <Link to="/CamoteBadges-React/badges" className="btn btn-primary">
             Start Now
           </Link>
         </div>

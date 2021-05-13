@@ -52,7 +52,7 @@ class BadgeEdit extends React.Component {
       await api.badges.update(this.props.match.params.badgeId, this.state.form);
       this.setState({ loading: false });
 
-      this.props.history.push('/badges');
+      this.props.history.push('/CamoteBadges-React/badges');
     } catch (error) {
       this.setState({ loading: false, error: error });
     }

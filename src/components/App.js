@@ -15,10 +15,10 @@ function App() {
       <Layout>
         <Switch>
           <Route exact path="/CamoteBadges-React" component={Home} />
-          <Route exact path="/badges" component={Badges} />
-          <Route exact path="/badges/new" component={BadgeNew} />
-          <Route exact path="/badges/:badgeId" component={BadgeDetails}/>
-          <Route exact path="/badges/:badgeId/edit" component={BadgeEdit} />
+          <Route exact path="/CamoteBadges-React/badges" component={Badges} />
+          <Route exact path="/CamoteBadges-React/badges/new" component={BadgeNew} />
+          <Route exact path="/CamoteBadges-React/badges/:badgeId" component={BadgeDetails}/>
+          <Route exact path="/CamoteBadges-React/badges/:badgeId/edit" component={BadgeEdit} />
           <Route component={NotFound} />
         </Switch>
       </Layout>

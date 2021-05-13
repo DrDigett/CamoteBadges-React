@@ -42,7 +42,7 @@ function BadgeDetails(props){
                             
                             <div>
                                 <div>
-                                    <Link className="btn btn-primary mb-4" to={`/badges/${badge.id}/edit`}>
+                                    <Link className="btn btn-primary mb-4" to={`/CamoteBadges-React/badges/${badge.id}/edit`}>
                                     Editar
                                     </Link>
                                 </div>

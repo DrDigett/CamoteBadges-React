@@ -93,7 +93,7 @@ function BadgesList(props) {
             <li key={badge.id}>
               <Link
                 className="text-reset text-decoration-none"
-                to={`/badges/${badge.id}`}
+                to={`/CamoteBadges-React/badges/${badge.id}`}
               >
                 <BadgesListItem badge={badge} />
               </Link>
