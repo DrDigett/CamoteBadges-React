@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './styles/BadgeNew.css';
-import header from '../images/platziconf-logo.svg';
+import header from '../images/camote-logo.png';
 import Badge from '../components/Badge';
 import BadgeForm from '../components/BadgeForm';
 import PageLoading from '../components/PageLoading';
@@ -61,11 +61,11 @@ class BadgeNew extends React.Component {
           <div className="row">
             <div className="col-6">
               <Badge
-                firstName={this.state.form.firstName || 'FIRST_NAME'}
-                lastName={this.state.form.lastName || 'LAST_NAME'}
+                firstName={this.state.form.firstName || 'nickname'}
+                lastName={this.state.form.lastName || 'nickname+'}
                 twitter={this.state.form.twitter || 'twitter'}
-                jobTitle={this.state.form.jobTitle || 'JOB'}
-                email={this.state.form.email || 'EMAIL'}
+                jobTitle={this.state.form.jobTitle || 'informacion'}
+                email={this.state.form.email || 'email'}
                 avatarUrl="https://www.gravatar.com/avatar/21594ed15d68ace3965642162f8d2e84?d=identicon"
               />
             </div>

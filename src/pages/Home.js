@@ -1,14 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import confLogo from "../images/logo.svg";
+//import "./styles/Home.css";
+import logo from "../images/camote-logo.png";
+
 class Home extends React.Component {
   render() {
     return (
       <div className="Home">
         <div className="Home__info">
-          <img src={confLogo} alt="Logo de conferencia" />
-          <h1>PRINT YOUR BADGES</h1>
+          <img class="logo" src={logo} alt="Logo de conferencia" />
+          <h1>Unete a Camote Sports</h1>
           <p>The easiest way to manage your conference</p>
           <Link to="/badges" className="btn btn-primary">
             Start Now

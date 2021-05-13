@@ -9,7 +9,7 @@
 .Badge__header {
   padding: 0.5rem 0;
   height: 80px;
-  background: #1B1B25;
+  background: #36393f;
   display: flex;
   justify-content: center;
 }
@@ -43,7 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #98CA3F;
+  color: #ff8000;
   font-weight: bold;
   font-style: italic;
 }

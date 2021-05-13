@@ -5,27 +5,9 @@
       "firstName": "McDiGETT",
       "lastName": "(ginecologo)",
       "email": "d9730707@gmail.com",
-      "jobTitle": "Top Line B)",
+      "jobTitle": "Top Line",
       "twitter": "drgonas",
       "avatarUrl": "https://www.gravatar.com/avatar/0fc6d5ee2ee176d4581acf6a7e5644cc?d=identicon"
-    },
-    {
-      "id": "22330587-c700-4d00-911d-91de63db1f42",
-      "firstName": "Dustin",
-      "lastName": "Stehr",
-      "email": "Lue.Funk@hotmail.com",
-      "jobTitle": "Legacy Infrastructure Consultant",
-      "twitter": "DustinStehr77585-9157",
-      "avatarUrl": "https://www.gravatar.com/avatar/272e74beaee600c8ab957ddee8444495?d=identicon"
-    },
-    {
-      "id": "f1183526-aff1-46da-8bfb-976563c6f696",
-      "firstName": "Karlee",
-      "lastName": "Satterfield",
-      "email": "Christian31@gmail.com",
-      "jobTitle": "Chief Accounts Agent",
-      "twitter": "KarleeSatterfield32692-9732",
-      "avatarUrl": "https://www.gravatar.com/avatar/c2d679f9b44e1869548ab95aac18b7c9?d=identicon"
     },
     {
       "id": "a6aeca9b-a7c1-45d2-b970-0121c682402a",
@@ -43,14 +25,6 @@
       "jobTitle": "desarrollador",
       "twitter": "pepe",
       "id": "gii6Z3n"
-    },
-    {
-      "firstName": "ss",
-      "lastName": "aa",
-      "email": "dnw80457@zzrgg.com",
-      "jobTitle": "ss",
-      "twitter": "aa",
-      "id": "rge42Vs"
     }
   ]
 }

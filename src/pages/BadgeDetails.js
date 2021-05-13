@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 import './styles/BadgeDetails.css'
 import Badge from '../components/Badge';
-import confLogo from '../images/platziconf-logo.svg';
+import Logo from '../images/camote-logo.png';
 import DelteBadgeModal from '../components/DeleteBadgeModal';
 
 function BadgeDetails(props){
@@ -16,7 +16,7 @@ function BadgeDetails(props){
                     <div className="container">
                         <div className="row">
                             <div className="col-6">
-                                <img src={confLogo} alt="logo"/>
+                                <img class="logo" src={Logo} alt="logo"/>
                             </div>
                             <div className="col-6 BadgeDetails__hero-attendant-name">
                                 <h1>{badge.firstName} {badge.lastName}</h1>

@@ -45,7 +45,7 @@ class BadgeForm extends React.Component{
                     </div>
 
                     <div className="form-group">
-                        <label>email</label>
+                        <label>email (no es obligatorio)</label>
                         <input 
                             onChange={this.props.onChange} 
                             className="form-control" 
