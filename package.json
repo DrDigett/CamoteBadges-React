@@ -4,12 +4,7 @@
   "private": true,
   "homepage": "https://drdigett.github.io/CamoteBadges-React",
   "scripts": {
-    "predeploy": "npm run build client server",
-    "deploy": "gh-pages -d build ",
-    "start": "npm-run-all -p client server",
-    "client": "react-scripts start",
-    "server": "json-server --port 3001 --watch server/db.json",
-    "seed": "node server/seed.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
