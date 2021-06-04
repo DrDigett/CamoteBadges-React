@@ -27,7 +27,7 @@ class BadgesListItem extends React.Component {
 }
 
 function useSearchBadges(badges){
-  const [query, setQuery, file] = React.useState('')
+  const [query, setQuery] = React.useState('')
 
   const [filteredBadges, setFilteredBadges] = React.useState(badges)
   
